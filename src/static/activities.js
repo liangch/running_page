@@ -1874,6 +1874,20 @@ const activities = [
     "average_heartrate": 143.0,
     "average_speed": 2.426643761807637,
     "streak": 2
+  },
+  {
+    "run_id": 1605697480000,
+    "name": "run from gpx",
+    "distance": 5532.309925595508,
+    "moving_time": "0:37:29",
+    "type": "Run",
+    "start_date": "2020-11-18 11:04:40",
+    "start_date_local": "2020-11-18 19:04:40",
+    "location_country": "\u67ab\u53f6\u901f8\u9152\u5e97 \u5927\u8fde\u8def\u5e97 Super8 Hotel, \u970d\u5c71\u8def, \u8679\u53e3\u533a, 200082, China \u4e2d\u56fd",
+    "summary_polyline": "mfx}DinsdVlGuD?w@cB}A{C_IcBuBs@wBJcAeAaAqAsCo@qDkDiJdCcAdA\\vHxMHn@aEtCcBuAmAkFoJqUUiCoDtBo@vAQOqByFA{A_HeM`Aw@f@{Ag@uBoCuE}A{GkLiWyCmDuAqDeEyCq@gC_FsH?}Ba@Yu@P}AbAUjAb@`ACv@vC|BlA~DtA`BnApDIb@eGdGwA}BqAwDPAqAy@K]j@g@o@O",
+    "average_heartrate": 146.0,
+    "average_speed": 2.459897699242111,
+    "streak": 3
   }
 ];
 
