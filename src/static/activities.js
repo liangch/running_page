@@ -1888,6 +1888,20 @@ const activities = [
     "average_heartrate": 146.0,
     "average_speed": 2.459897699242111,
     "streak": 3
+  },
+  {
+    "run_id": 1605944014000,
+    "name": "run from gpx",
+    "distance": 7387.279639441967,
+    "moving_time": "0:55:50",
+    "type": "Run",
+    "start_date": "2020-11-21 07:33:34",
+    "start_date_local": "2020-11-21 15:33:34",
+    "location_country": "Shun Feng, \u6c49\u4e2d\u8def, \u5353\u60a6\u5c40, \u9759\u5b89\u533a, 428, China \u4e2d\u56fd",
+    "summary_polyline": "wcu}Dm}gdV\\Ls@RYzBaBrAnAfDkAdAPzAw@BjCnA\\~BrAzCB|BjCbFVvDxBdBDlAbCbE_AtBy@Bw@n@UxAyAnB?zByAxB}C`Bw@zB}GrHwCzCoBp@gA`C}Ap@kC~E[xAyAfBj@d@QPTx@hB~Bz@`FClAfAp@`@`AIjDbArDb@xIn@hAbBVnBc@jF{BxLwCpBLfCrBBl@w@l@RrA{A{BiBQwJhCgCrAaIrB{@EwBwAaAwBmB{Ue@_AwQt@yBc@u@ZcDuAmGaFgKaMgBcEu@_EGiBZqAQkFcAoCNmHnJ}Z",
+    "average_heartrate": 134.0,
+    "average_speed": 2.2051581013259605,
+    "streak": 1
   }
 ];
 
