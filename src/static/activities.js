@@ -1916,6 +1916,20 @@ const activities = [
     "average_heartrate": 131.0,
     "average_speed": 2.1594877064275755,
     "streak": 2
+  },
+  {
+    "run_id": 1606202332000,
+    "name": "run from gpx",
+    "distance": 3692.558211981208,
+    "moving_time": "0:27:17",
+    "type": "Run",
+    "start_date": "2020-11-24 07:18:52",
+    "start_date_local": "2020-11-24 15:18:52",
+    "location_country": "\u6b27\u5c1a\u4e2d\u539f\u5e97, \u4e2d\u539f\u8def, \u4e94\u89d2\u573a\u8857\u9053, \u4e0a\u6d77\u5e02, \u6768\u6d66\u533a, 200438, China \u4e2d\u56fd",
+    "summary_polyline": "yoc~Di}vdVo@@Oz@w@?}Jg@uCN}@aAa@oC?eJd@uAc@aOReAyA_@gGVuGSGnAk@bAPxESd@G|N^vFa@xBgOHsBYe@qF^aNKeCg@gAZcG~AuAlFd@rICKpDh@p@JtBy@|E^l@g@zC",
+    "average_heartrate": 129.0,
+    "average_speed": 2.255686140489437,
+    "streak": 1
   }
 ];
 
