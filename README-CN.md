@@ -22,6 +22,12 @@
 | [tuzimoe](https://github.com/tuzimoe) | https://run.tuzi.moe | Nike |
 | [ben_29](https://github.com/ben-29) | https://running.ben29.xyz | Strava |
 | [kcllf](https://github.com/kcllf) | https://running-tau.vercel.app | Garmin-cn |
+| [mq](https://github.com/MQ-0707) | https://running-iota.vercel.app | Keep |
+| [zhaohongxuan](https://github.com/zhaohongxuan) | https://running-page-psi.vercel.app/ | Keep |
+
+## 它是怎么工作的
+
+![image](https://user-images.githubusercontent.com/15976103/100430000-28753480-30d1-11eb-8b4e-258a67038d74.png)
 
 ## 特性
 
@@ -49,6 +55,7 @@
 - **[Garmin-cn](#Garmin-CN(大陆用户请用这个))**
 - **[Keep](#Keep)**
 - **[GPX](#GPX)**
+- **[Nike+Strava(Using NRC Run, Strava backup data)](#Nike+Strava)**
 
 ## 下载
 ```
@@ -241,6 +248,24 @@ https://github.com/strava/go.strava
 
 </details>
 
+### Nike+Strava
+
+<details>
+<summary>Get your <code>Nike Run Club</code> data and upload to strava</summary>
+
+<br>
+
+1. 完成 nike 和 strava 的步骤
+2. 在项目根目录下执行::
+```python
+python3(python) scripts/nike_to_strava_sync.py ${nike_refresh_token} ${client_id} ${client_secret} ${strava_refresch_token} 
+```
+示例：
+```python
+python3(python) scripts/nike_to_strava_sync.py eyJhbGciThiMTItNGIw******  xxx xxx xxx
+```
+</details>
+
 ### Total Data Analysis
 
 <details>
@@ -308,7 +333,7 @@ Actions [源码](https://github.com/yihong0618/running_page/blob/master/.github/
 - [x] 支持佳明，佳明中国
 - [x] 支持 keep
 - [ ] 支持苹果自带运动
-- [ ] 支持 nike + strava, runtastic + strava
+- [x] 支持 nike + strava
 - [ ] 尝试支持咕咚，小米运动
 - [x] 支持英语
 - [x] 完善代码
