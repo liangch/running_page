@@ -27,6 +27,14 @@ env:
   GITHUB_NAME: liangch
   GITHUB_EMAIL: lc@liangchen.net
 
+jobs:
+  sync:
+    name: Sync
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set up Python
         uses: actions/setup-python@v1
         with:
           python-version: 3.6
@@ -55,7 +63,7 @@ env:
         if: env.RUN_TYPE == 'nike_to_strava'
         run: |
           python scripts/nike_to_strava_sync.py ${{ secrets.NIKE_REFRESH_TOKEN }} ${{ secrets.STRAVA_CLIENT_ID }} ${{ secrets.STRAVA_CLIENT_SECRET }} ${{ secrets.STRAVA_CLIENT_REFRESH_TOKEN }}
-  
+
       - name: Run sync Runtastic script
         if: env.RUN_TYPE == 'runtastic'
         run: |
