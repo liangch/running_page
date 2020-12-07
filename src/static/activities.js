@@ -1986,6 +1986,20 @@ const activities = [
     "average_heartrate": 142.0,
     "average_speed": 2.4215330314771633,
     "streak": 1
+  },
+  {
+    "run_id": 1607324565000,
+    "name": "run from gpx",
+    "distance": 10215.90303134525,
+    "moving_time": "1:15:04",
+    "type": "Run",
+    "start_date": "2020-12-07 07:02:45",
+    "start_date_local": "2020-12-07 15:02:45",
+    "location_country": "McDonald's, \u4e2d\u539f\u8def, \u6768\u6d66\u533a, 200438, China \u4e2d\u56fd",
+    "summary_polyline": "src~Du|vdVIf@eCXsMc@sEb@aOo@qC\\}K@cAa@aCb@{L?oCg@cAh@iOA}@gJNiLpAoG`CeBfI[zANZh@a@b^y@~DT`Ko@|NrA`CjCzBrBr@tLc@p@s@a@uPLgOn@kBa@g@Q}F`@}]Ks_@lR`@DxYYlDXr@?b[CrG[X\\zA?v[r@jDfPn@pAq@J}jAlJa@fHNTdIWzM",
+    "average_heartrate": 145.0,
+    "average_speed": 2.2681845096237234,
+    "streak": 1
   }
 ];
 
