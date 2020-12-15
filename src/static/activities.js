@@ -2014,6 +2014,20 @@ const activities = [
     "average_heartrate": 152.0,
     "average_speed": 2.1492165770944567,
     "streak": 1
+  },
+  {
+    "run_id": 1607932294000,
+    "name": "run from gpx",
+    "distance": 8819.325773063629,
+    "moving_time": "1:06:50",
+    "type": "Run",
+    "start_date": "2020-12-14 07:51:34",
+    "start_date_local": "2020-12-14 15:51:34",
+    "location_country": "\u4e2d\u539f\u8def\u56fd\u548c\u8def, \u4e2d\u539f\u8def, \u6768\u6d66\u533a, 200438, \u4e2d\u56fd",
+    "summary_polyline": "}rc~D}zvdV_Sa@eBb@oIDyEq@uA^eOF{@g@o@f@gJBiHo@gAl@gOG}@gERuBWcCtA{Ob@qA`DsBrISd@VXhFOtRs@tHc@~@TdHy@fRpAnBUbDLvQNz@hA@xB`AnIpKpDvAdJoAtDuC|CcAdS_Lb@_Ai@kCDmF\\gBi@eGIwHPiP`@_Be@wK`@eOi@kGt@qAe@cLXmQtSAVfXInBk@hAf@x@NrRg@`Hj@HFz@",
+    "average_heartrate": 144.0,
+    "average_speed": 2.199333110489683,
+    "streak": 1
   }
 ];
 
