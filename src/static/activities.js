@@ -2322,6 +2322,20 @@ const activities = [
     "average_heartrate": 140.0,
     "average_speed": 2.256575909462915,
     "streak": 2
+  },
+  {
+    "run_id": 1614755169000,
+    "name": "run from gpx",
+    "distance": 8664.903881982531,
+    "moving_time": "1:10:06",
+    "type": "Run",
+    "start_date": "2021-03-03 07:06:09",
+    "start_date_local": "2021-03-03 15:06:09",
+    "location_country": "McDonald's, \u4e2d\u539f\u8def, \u6768\u6d66\u533a, 200438, \u4e2d\u56fd",
+    "summary_polyline": "cvc~D_|vdV}A[iJx@oAe@gBz@cBB_Je@u@RyAy@U^{MZuBq@e@\\oKXoHo@iBn@mLIwA[C{@P{TsIUeBTh@WzF?jDj@g@bPa@hB^vAY~D`@~BEtGXrAq@hGIfZV`BzMMzHj@~C~Cc@jDh@~@v@VfA_AhCzBbE~@tAC~B_Av@jBbBf@pB`EpDvBl@xAlDlBrA|ArC|@pAjC~@Sv@l@@xA_AzB}G`NiA`AoBlLy@rONkAnAEZyKnBcJzFkM|E_Ij@sAIeApCmGrKkSUiKw@_G",
+    "average_heartrate": 141.0,
+    "average_speed": 2.060129310980155,
+    "streak": 1
   }
 ];
 
