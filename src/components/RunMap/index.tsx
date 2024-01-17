@@ -131,7 +131,7 @@ const RunMap = ({
       {...viewState}
       onMove={onMove}
       style={style}
-      mapStyle="mapbox://styles/liangch2/ckvaliz4ibmw915paop1vcdt4"
+      mapStyle="mapbox://styles/mapbox/dark-v11"
       localIdeographFontFamily="OPlusSans3, 'Noto Sans', 'Noto Sans CJK SC', sans-serif"
       ref={mapRefCallback}
       mapboxAccessToken={MAPBOX_TOKEN}
