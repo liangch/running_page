@@ -185,6 +185,9 @@ docker build -t running_page:latest . --build-arg app=Strava --build-arg client_
 #Nike_to_Strava
 docker build -t running_page:latest . --build-arg app=Nike_to_Strava  --build-arg nike_refresh_token="" --build-arg client_id=""  --build-arg client_secret=""  --build-arg refresh_token=""
 
+# Keep
+docker build -t running_page:latest . --build-arg app=Keep --build-arg keep_phone_number="" --build-arg keep_password=""
+
 #启动
 docker run -itd -p 80:80   running_page:latest
 
@@ -1128,7 +1131,7 @@ curl https://api.github.com/repos/yihong0618/running_page/actions/workflows -H "
 
 - vercel git
 
-  如果想 ignpre gh-pages 可以在 `settings` -> `build` -> `Ignored Build Step` -> `Custom` 输入命令：
+  如果想 ignore gh-pages 可以在 `settings` -> `build` -> `Ignored Build Step` -> `Custom` 输入命令：
 
   ```bash
   if [ "$VERCEL_GIT_COMMIT_REF" != "gh-pages" ]; then exit 1; else exit 0;
