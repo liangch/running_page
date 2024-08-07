@@ -4,14 +4,9 @@ export default {
   theme: {
     fontFamily: {
       sans: [
+        'Chirp',
+        'OPlusSans3',
         '-apple-system',
-        'BlinkMacSystemFont',
-        'Segoe UI',
-        'Roboto',
-        'Oxygen-Sans',
-        'Ubuntu',
-        'Cantarell',
-        'Helvetica Neue',
         'sans-serif',
       ],
     },
