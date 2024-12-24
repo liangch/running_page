@@ -5,7 +5,7 @@ export default {
     fontFamily: {
       sans: [
         'Chirp',
-        'OPlusSans3',
+        'OPPO Sans 4.0',
         '-apple-system',
         'sans-serif',
       ],
