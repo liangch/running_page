@@ -145,7 +145,7 @@ const RunMap = ({
       {...viewState}
       onMove={onMove}
       style={style}
-      mapStyle="mapbox://styles/mapbox/light-v10?optimize=true"
+      mapStyle="mapbox://styles/mapbox/dark-v10?optimize=true"
       localIdeographFontFamily="Chirp, 'OPPO Sans 4.0', 'Noto Sans CJK SC', sans-serif"
       ref={mapRefCallback}
       mapboxAccessToken={MAPBOX_TOKEN}
