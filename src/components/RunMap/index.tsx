@@ -46,6 +46,12 @@ const RunMap = ({
   const mapRef = useRef<MapRef>();
   const [lights, setLights] = useState(PRIVACY_MODE ? false : LIGHTS_ON);
   const keepWhenLightsOff = ['runs2']
+
+  const layers = map.getStyle().layers;
+  layers
+    .filter(layer => layer.type === 'symbol' && layer.id.includes('-label'))
+    .forEach(layer => map.setPaintProperty(layer.id, 'text-opacity', 0));
+  
   function switchLayerVisibility(map: MapInstance, lights: boolean) {
     const styleJson = map.getStyle();
     styleJson.layers.forEach((it: { id: string; }) => {
