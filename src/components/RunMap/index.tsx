@@ -75,11 +75,6 @@ const RunMap = ({
           mapRef.current = ref;
           switchLayerVisibility(map, lights);
         });
-        
-        const layers = map.getStyle().layers;
-        layers
-          .filter(layer => layer.type === 'symbol' && layer.id.includes('-label'))
-          .forEach(layer => map.setPaintProperty(layer.id, 'text-opacity', 0));
       }
       if (mapRef.current) {
         const map = mapRef.current.getMap();
