@@ -2,7 +2,10 @@
 /*   display: none; */
 /* } */
 .mapboxgl-map {
-  font: 12px/20px Chirp, 'OPPO Sans 4.0', sans-serif;
+  font:
+    12px/20px Chirp,
+    'OPPO Sans 4.0',
+    sans-serif;
   overflow: hidden;
   position: relative;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
