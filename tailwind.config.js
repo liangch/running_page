@@ -4,9 +4,8 @@ export default {
   theme: {
     fontFamily: {
       sans: [
-        'Chirp',
-        'OPPO Sans 4.0',
         '-apple-system',
+        'BlinkMacSystemFont',
         'sans-serif',
       ],
     },
